@@ -1,4 +1,4 @@
-# JEST Unit Tests
+# Testes Unitários com JEST
 
 ## GitHub Actions
 
@@ -8,20 +8,21 @@
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ugioni_unit-tests-jest&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=ugioni_unit-tests-jest)
 
-## Getting Started
+## Introdução
 
-In order to execute this project you must follow the steps below:
+Este projeto foi desenvolvido como parte da avaliação da disciplina de Automação de Testes. Para executá-lo, siga os passos abaixo:
 
-1. Install [Node JS](https://nodejs.org/) (version >= 20.x)
-1. Run `npm install` to install all the project dependencies
-1. Run `npm run test` to execute the entire test suite
-1. Run `npm run coverage` to execute the entire test suite with coverage
+1. Instale o [Node JS](https://nodejs.org/) (versão >= 20.x)
+2. Execute `npm install` para instalar todas as dependências do projeto
+3. Execute `npm run test` para rodar toda a suíte de testes
+4. Execute `npm run coverage` para executar os testes com análise de cobertura
 
-All execution artifacts can be found in `./coverage`, if you want to remove these files run `npm run clean`.
+Os artefatos de execução serão gerados na pasta `./coverage`. Para limpar esses arquivos, execute `npm run clean`.
 
-## Project Structure
+## Estrutura do Projeto
+
 </br>
 <ul>
-    <li>src: source code</li>
-    <li>test: unit test files</li>
+    <li><strong>src</strong>: código-fonte da aplicação</li>
+    <li><strong>test</strong>: arquivos de testes unitários</li>
 </ul>
